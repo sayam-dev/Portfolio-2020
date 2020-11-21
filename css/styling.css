@@ -665,11 +665,13 @@ transition: transform .5s ease-in-out;
 
 
 .blogs-page .bg-main-p p{
-    margin: 2em auto;
+    margin: 0 auto;
     font-size: 1.25rem;
     font-weight: 400;
-    width: 70%;
+    width: 80%;
     color: #111;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 .grid-image img{
@@ -686,7 +688,6 @@ transition: transform .5s ease-in-out;
     grid-template-rows: auto;
     gap: 20px;
     margin-bottom: 20px;
-    padding: 0 50px;
     
     justify-content: center;
    margin: 0 auto;
@@ -1394,9 +1395,10 @@ background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBo
     /*second-content*/
 
     #card{
-        margin: 0;
+        
         padding: 5px;
         margin: 5px;
+        margin-bottom: 25px;
     }
 }
 
