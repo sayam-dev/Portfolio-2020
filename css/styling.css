@@ -1069,12 +1069,12 @@ background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBo
 
     .border-bottom{
         border-bottom: 5px double #774936;
-        width: 70%;
+        width: 80%;
         display: flex;
         justify-content: center;
         margin: 0 auto;
-        margin-top: 40px;
-        padding-top: 40px;
+        margin-top: 20px;
+        padding-top: 20px;
         
     }
 
