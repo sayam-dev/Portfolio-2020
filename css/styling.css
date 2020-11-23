@@ -1761,6 +1761,10 @@ background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBo
         font-size: 1rem;
     }
 
+    .blogs-page .bg-main-p p{
+        width: initial;
+    }
+
     /*blog-1*/
 
     .blg-1-wrapper .blg-1-title h1 {
