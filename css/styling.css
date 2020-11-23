@@ -15,6 +15,7 @@ body{
     font-family: 'Poppins',sans-serif;
     line-height: normal;
     height: 100%;
+    overflow-x: hidden;
 }
 
 body::-webkit-scrollbar{
@@ -1741,7 +1742,10 @@ background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBo
 
     .project-main-para{
         font-size: 1.15rem;
+        width: initial;
     }
+
+    
 
     .project-work .project-text p{
         font-size: 1rem;
