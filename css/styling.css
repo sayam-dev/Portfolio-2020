@@ -1709,6 +1709,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBo
         align-items: initial;
         padding: 0;
         margin-bottom: 20px;
+        padding-bottom: 20px;
     }
 
     #second-arrow-project{
