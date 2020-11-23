@@ -1707,6 +1707,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBo
 
     aside{
         align-items: initial;
+        padding: 0;
     }
 
     .box p{
@@ -1847,36 +1848,3 @@ background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBo
 
 }
 
-/*phone sizes similar to IPhone 5/SE*/
-@media (max-width:568px){
-
-/*menu items*/
-.menu-items{
-    transform: translateX(150vw);
-}
-
-.menu-items.open{
-    transform: translateY(25vw);
-}
-
-
-/*main section*/
-.section{
-padding-top: 40px;
-}
-.hero-intro h1{
-    font-size: 2.5rem;
-}
-.section h3{
-    font-size: 1em;
-}
-.section p{
-    font-size: 1rem;e
-    padding-right: initial;
-}
-aside{
-    padding:0;
-    padding-top: 20px;
-    padding-bottom: 70px;
-}
-}
