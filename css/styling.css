@@ -1765,6 +1765,11 @@ background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBo
         width: initial;
     }
 
+
+    .blg-references{
+        width: initial;
+    }
+
     /*blog-1*/
 
     .blg-1-wrapper .blg-1-title h1 {
@@ -1786,6 +1791,9 @@ background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBo
     .blg-1-text-sc1 blockquote {
         width: 70%;
 
+    }
+    .blg-1-text-sc1{
+        width: initial;
     }
 
 
