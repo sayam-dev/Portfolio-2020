@@ -1443,6 +1443,10 @@ background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBo
         font-size: 2.7vh;
     }
 
+   
+
+
+
     /*main-content-section*/
 
     
@@ -1627,7 +1631,6 @@ background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBo
 
 
 
-
 /*For mobile devices*/
 @media (max-width: 767px) {
    
@@ -1696,11 +1699,13 @@ background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBo
 
     /*main content-section*/
 
+
     .hero-intro h1{
-        font-size: 3.5rem;
-        line-height: 10vw;
+        font-size: 6rem;
+        line-height: 20vw;
     }
 
+   
 
 
 
@@ -1888,6 +1893,18 @@ background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBo
   
 
 
+
+
+}
+
+
+/*small phones*/
+@media (max-width: 500px){
+
+    .hero-intro h1{
+        font-size: 3.8rem;
+        line-height: 18vw;
+    }
 
 
 }
