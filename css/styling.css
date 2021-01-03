@@ -176,7 +176,8 @@ body::-webkit-scrollbar{
    margin: 0 auto;
    display: flex;
    margin-top: 20px;
-   width: 80%;
+   padding: 5% 10%;
+   
    
 }
 
@@ -258,6 +259,7 @@ strong{
     text-align: center;
     z-index: 10;
     cursor: pointer;
+    display: none;
     
     
 }
@@ -673,9 +675,8 @@ margin: auto;
     margin: 0 auto;
     font-size: 1.25rem;
     font-weight: 400;
-    width: 80%;
+    padding: 2% 15%;
     color: #111;
-    margin-bottom: 25px;
     margin-top: 25px;
 }
 
@@ -696,6 +697,7 @@ margin: auto;
     
     justify-content: center;
    margin: 0 auto;
+   padding: 2% 12%;
     
  
     }
@@ -1202,6 +1204,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBo
     background: url(../images/Confetti-Doodles\ \(1\).svg);
     height: 100%;
     margin-top: 20px;
+    padding: 4% 9%;
 }
 
  footer{
@@ -1439,10 +1442,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBo
 /** For tablet devices **/
 @media (max-width: 1023px) {
 
-   
-    
-    
-
+  
     .menu-items li a{
         font-size: 2.7vh;
     }
@@ -1637,11 +1637,20 @@ background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBo
 
 /*For mobile devices*/
 @media (max-width: 767px) {
+    
+   
+    
    
 
+    .hero-col{
+       
+        
+        width: 80%;
+        padding: 0;
+    }
+    
    
-    
-    
+
 
     .menu-items li a{
         font-size: 2vh;
@@ -1710,18 +1719,12 @@ background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBo
     }
 
    
-
-
-
-    .hero-intro .under-borderline{
-        
-
-            margin:3em 0 0;
-            border: 1px solid #774936;
-            opacity: 0.2;
-            
-        
+    .header-down-arrow{
+        display: none;
     }
+
+
+  
 
     /*second-section*/
 
@@ -1902,8 +1905,28 @@ background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBo
 }
 
 
+@media (max-width: 570px){
+
+  
+
+    .hero-intro h1{
+        font-size: 5rem;
+    }
+
+}
+
+
+
+
+
+
+
+
 /*small phones*/
 @media (max-width: 500px){
+
+
+    
 
     .hero-intro h1{
         font-size: 3.8rem;
