@@ -182,6 +182,10 @@ body::-webkit-scrollbar{
 }
 
 
+.hero-intro{
+    line-height: 1.5;
+}
+
 
 
 
@@ -215,6 +219,7 @@ strong{
     color: #774936;
     font-weight: 300;
     position: relative;
+    margin-top: 5%;
 }
 
 .section h3::before{
@@ -236,8 +241,9 @@ strong{
     color:#111;
     padding-right:1.25rem ;
     font-weight: 400;
-    font-size: 1.25rem;
-    max-width: 65ch;;
+    font-size: 1.4rem;
+    max-width: 65ch;
+    margin-top: 5%;
 }
 
 
@@ -327,7 +333,7 @@ background-color: #ffd9c8;
 .secondary-section .second-title{
     display: flex;
     justify-content: center;
-    border-top: #774936 1px solid;
+   
   
     align-items: center;
 }
@@ -381,7 +387,7 @@ background-color: #ffd9c8;
     transition: transform .5s;
     box-shadow:2px 3px 10px -1px #b07d62;
     
-    background-color: #ffffff;
+    
     background-image: url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm33.414-6l5.95-5.95L45.95.636 40 6.586 34.05.636 32.636 2.05 38.586 8l-5.95 5.95 1.414 1.414L40 9.414l5.95 5.95 1.414-1.414L41.414 8zM40 48c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zM9.414 40l5.95-5.95-1.414-1.414L8 38.586l-5.95-5.95L.636 34.05 6.586 40l-5.95 5.95 1.414 1.414L8 41.414l5.95 5.95 1.414-1.414L9.414 40z' fill='%23774936' fill-opacity='0.05' fill-rule='evenodd'/%3E%3C/svg%3E");
 
     
@@ -435,7 +441,7 @@ background-color: #ffd9c8;
     
     justify-content: center;
     margin: 0 30px;
-    background-color: #ffffff;
+  
 background-image: url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm33.414-6l5.95-5.95L45.95.636 40 6.586 34.05.636 32.636 2.05 38.586 8l-5.95 5.95 1.414 1.414L40 9.414l5.95 5.95 1.414-1.414L41.414 8zM40 48c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zM9.414 40l5.95-5.95-1.414-1.414L8 38.586l-5.95-5.95L.636 34.05 6.586 40l-5.95 5.95 1.414 1.414L8 41.414l5.95 5.95 1.414-1.414L9.414 40z' fill='%23774936' fill-opacity='0.05' fill-rule='evenodd'/%3E%3C/svg%3E");
     padding: 30px;
     transition: transform .5s;
@@ -596,7 +602,11 @@ margin: auto;
 }
 
 .project-pics img{
+    
+
     width: 400px;
+    align-items: flex-start;
+    
    
 }
 
@@ -925,10 +935,12 @@ background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBo
 
     .blg-2-bg-pic img{
         width: 65%;
+        align-items: flex-start;
     }
 
     .blg2-pic img{
         width: 60%;
+        align-items: flex-start;
     }
 
     .blg2-pic{
@@ -1002,6 +1014,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBo
 
     .blg-1-bg-pic img{
         width: 65%;
+        align-items: flex-start;
         
     }
 
@@ -1107,6 +1120,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBo
 
     .blg-1-sc2-img img{
         width: 55%;
+        align-items: flex-start;
     }
 
     .blg-1-sc2-img:after{
@@ -1130,6 +1144,8 @@ background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBo
         position: relative;
         margin: 40px 0;
         padding: 40px 0;
+        align-items: flex-start;
+        
     }
 
     .blg-1-sc3-img img{
@@ -1159,6 +1175,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBo
         
         padding: 5px;
         width: 65%;
+        align-items: flex-start;
     }
 
    
@@ -1571,6 +1588,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBo
     .grid-image img{
         width: 100%;
         height: auto;
+        align-items: flex-start;
     }
 
     /*blog-1*/
@@ -1795,6 +1813,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBo
     .project-pics img{
         width: 100%;
         height: auto;
+        align-items: flex-start;
     }
 
     .project-main-para{
